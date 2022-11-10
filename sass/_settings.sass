@@ -1,0 +1,35 @@
+*,*:before, *:after
+    box-sizing: border-box
+    margin: 0
+html
+    font-family: 'Roboto', sans-serif
+    font-size: 15px
+    font-weight: 400
+    color: $white
+h1,h2,h3
+    margin: 0
+a
+    text-decoration: none
+    color: $white
+.container
+    max-width: 1130px
+    width: 100%
+    margin: auto
+.block
+    display: flex
+    justify-content: space-between
+    align-items: center
+.button
+    border-radius: 50px
+    border: none
+    text-align: center
+    cursor: pointer
+    &--secondary
+        color: $blue
+        background-color: $white
+        &:hover
+            color: $h-blue
+            box-shadow: 0 0 10px $gray
+            transition: all 400ms
+            
+
