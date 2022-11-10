@@ -379,14 +379,25 @@ a {
   cursor: pointer;
 }
 
-.button--secondary {
+.button--primary {
   color: #24475B;
-  background-color: #F4FBF9;
+  background-color: #fff;
+}
+
+.button--primary:hover {
+  text-shadow: 0 0 0.6rem rgba(255, 255, 255, 0.705);
+  box-shadow: 0 0 0.5rem #fff;
+  transition: all 400ms;
+}
+
+.button--secondary {
+  background-color: #24475B;
+  color: #fff;
 }
 
 .button--secondary:hover {
-  color: #4d6779;
-  box-shadow: 0 0 0.6667rem #F4FBF9;
+  text-shadow: 0 0 0.1rem #fff;
+  box-shadow: 0 0 0.6rem #24475B;
   transition: all 400ms;
 }
 
@@ -394,11 +405,15 @@ a {
   padding-top: 1.3333rem;
   padding-bottom: 1.3333rem;
   background: #00CA90;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.header-logo {
+  margin-top: 0.2rem;
 }
 
 .header-menu {
   padding-right: 11.3333rem;
-  padding-bottom: 0.1333rem;
 }
 
 .header-menu__item {
@@ -408,8 +423,7 @@ a {
 }
 
 .header-menu__item:hover {
-  color: #24475B;
-  text-shadow: 0 0 0.6667rem #24475B;
+  text-shadow: 0 0 0.3rem #fff;
   transition: all 400ms;
 }
 
@@ -420,12 +434,57 @@ a {
 }
 
 .header-authoriz__item:hover {
-  color: #24475B;
-  text-shadow: 0 0 0.6667rem #24475B;
+  text-shadow: 0 0 0.2rem #fff;
   transition: all 400ms;
 }
 
 .header-authoriz__button {
   padding: 0.6667rem 2.3333rem;
+  line-height: 1.0667rem;
+}
+
+.promo {
+  background-color: #00CA90;
+  padding-bottom: 50px;
+}
+
+.promo-container {
+  display: flex;
+}
+
+.promo-text {
+  padding-top: 100px;
+  width: 530px;
+}
+
+.promo-text__btn {
+  text-transform: capitalize;
+  padding: 7px 15px;
+  background: rgba(255, 255, 255, 0.287);
+  border-radius: 33px;
+  color: #fff;
+  line-height: 15px;
+}
+
+.promo-text__btn:hover {
+  box-shadow: 0 0 0.4rem rgba(255, 255, 255, 0.705);
+  text-shadow: 0 0 0.6rem #fff;
+  transition: all 400ms;
+}
+
+.promo-text__title {
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 400;
+}
+
+.promo-text__desc {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.promo-text__button {
+  padding: 15px 90px;
 }
 /*# sourceMappingURL=style.css.map */

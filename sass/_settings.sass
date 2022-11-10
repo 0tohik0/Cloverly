@@ -26,12 +26,21 @@ a
     text-align: center
     text-transform: capitalize
     cursor: pointer
-    &--secondary
+    &--primary
         color: $blue
-        background-color: $gray
+        background-color: $white
         &:hover
-            color: $h-blue
-            box-shadow: 0 0 0.6667rem $gray
+            text-shadow: 0 0 0.6rem $gray
+            box-shadow: 0 0 0.5rem $white
             transition: all 400ms
+    &--secondary
+        background-color: $blue
+        color: $white
+        &:hover
+            text-shadow: 0 0 0.1rem $white
+            box-shadow: 0 0 0.6rem $blue
+            transition: all 400ms
+            
+
             
 
