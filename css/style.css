@@ -445,7 +445,7 @@ a {
 
 .promo {
   background-color: #00CA90;
-  padding-bottom: 50px;
+  padding-bottom: 3.3333rem;
 }
 
 .promo-container {
@@ -453,17 +453,25 @@ a {
 }
 
 .promo-text {
-  padding-top: 100px;
-  width: 530px;
+  padding-top: 6.6667rem;
+  width: 35.3333rem;
+}
+
+.promo-text__buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.6667rem;
+  padding-right: 0.6667rem;
 }
 
 .promo-text__btn {
   text-transform: capitalize;
-  padding: 7px 15px;
+  padding: 0.4667rem 1rem;
   background: rgba(255, 255, 255, 0.287);
-  border-radius: 33px;
+  border-radius: 2.2rem;
   color: #fff;
-  line-height: 15px;
+  line-height: 1rem;
+  margin-bottom: 1.3333rem;
 }
 
 .promo-text__btn:hover {
@@ -474,14 +482,16 @@ a {
 
 .promo-text__title {
   text-transform: capitalize;
-  font-size: 60px;
+  font-size: 4rem;
   line-height: 80px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .promo-text__desc {
   font-size: 18px;
   line-height: 26px;
+  margin-bottom: 45px;
 }
 
 .promo-text__button {
